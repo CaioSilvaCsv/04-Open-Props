@@ -1,0 +1,78 @@
+@import "https://unpkg.com/open-props";
+
+
+body{
+    background-color: var(--color-background);
+}
+
+nav{
+    height: var(--size-8);
+}
+
+a{
+    text-decoration: none;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+#img-logo{
+    width: var(--size-7);
+}
+
+#img-perfil{
+    width: var(--size-14);
+    border-radius: var(--radius-round);
+}
+
+.perfil :hover{
+    animation: var(--animation-float);
+}
+
+.svg-contato{
+    height: var(--size-6);
+}
+
+/* lua */
+#lua{
+    fill: var(--lua);
+}
+
+#estrela{
+    fill: var(--estrela);
+    animation: var(--animation-blink);
+}
+
+#nuvem{
+    fill: var(--nuvem);
+}
+
+.svg-lua{
+    height: var(--size-8);
+}
+
+
+
+:root{
+    --color-background: var(--gray-0);
+    --color-text: var(--gray-9);
+    --color-primary:var(--blue-6);
+
+    /* svg de nuvem estrela */
+    --estrela: var(--yellow-4);
+    --nuvem: var(--blue-6);
+    --lua:var(--gray-7);
+}
+
+@media (prefers-color-scheme: ligth){
+    :root{
+        --color-background: var(--blue-12);
+        --color-text:var(--gray-0);
+        --color-primary: var(--blue-4);
+
+        --nuvem: var(--blue-2);
+        --lua:var(--gray-2);
+    }
+}
