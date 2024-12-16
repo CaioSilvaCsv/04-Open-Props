@@ -1,0 +1,153 @@
+body{
+
+}
+
+nav{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+
+}
+
+h4{
+
+}
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.espacar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.espaco{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.alinhar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li{
+    font-family: "Prata", serif;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.menu a{
+    
+}
+
+#if{
+    
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    font-family:"Playwrite TZ Guides", cursive;;
+}
+
+hr{
+    
+}
+
+#img-logo{
+    
+}
+
+#img-perfil{
+    
+}
+
+.perfil :hover{
+    
+}
+
+.svg-contato{
+   
+}
+
+/* lua */
+#lua{
+    
+}
+
+#estrela{
+    
+}
+
+#nuvem{
+    
+}
+
+.svg{
+    
+}
+
+
+.item{
+
+}
+
+.item:first-child{
+    border-bottom: none;
+}
+
+
+
+:root{
+    
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+       
+    }
+}
+
+@media screen and (max-width:700px) {
+    
+    .contato{
+        display: flex;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        
+        justify-content: center;
+    }
+
+    #img-perfil{
+        
+    }
+    .espaco{
+        
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    h4{
+        
+    }
+}

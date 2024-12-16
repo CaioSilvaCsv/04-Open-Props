@@ -1,5 +1,6 @@
 @import "https://unpkg.com/open-props";
-
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 body{
     background-color: var(--color-background);
@@ -54,6 +55,7 @@ h4{
 }
 
 .menu li{
+    font-family: "Prata", serif;
     list-style: none;
     display: flex;
     align-items: center;
@@ -77,9 +79,10 @@ h4{
 }
 
 span{
+    font-family:"Playwrite TZ Guides", cursive;;
     color: var(--titulo-color);
     font-size: var(--font-size-5); 
-    letter-spacing: var(--font-letterspacing-3);  
+    /* letter-spacing: var(--font-letterspacing-2);   */
 }
 
 hr{
@@ -181,7 +184,7 @@ hr{
     }
 
     #img-perfil{
-        width: var(--size-10);
+        width: var(--size-11);
     }
     .espaco{
         margin: var(--size-00) var(--size-0);
@@ -189,7 +192,6 @@ hr{
         flex-wrap: nowrap;
     }
     h4{
-        color: var(--subtitulo-color);
         line-height: var(--font-lineheight-2);
         font-size: var(--font-size-2);
         font-weight: var(--font-weight-1);
