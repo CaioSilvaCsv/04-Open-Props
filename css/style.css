@@ -2,6 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
+:root{
+    --color-background: var(--gray-0);
+    --color-text: var(--gray-10);
+    --color-primary:var(--blue-6);
+
+    --sombra:var(--gray-8);
+
+    --margin: var(--size-00) var(--size-2)
+
+    /* titulo */
+    --titulo-color: var(--green-10);
+    --subtitulo-color: var(--gray-8);
+    /* svg de nuvem estrela */
+    --estrela: var(--yellow-4);
+    --nuvem: var(--blue-6);
+    --lua:var(--gray-7);
+}
+
 body{
     background-color: var(--color-background);
     color: var(--color-text);
@@ -14,7 +32,7 @@ nav{
 
 a{
     text-decoration: none;
-    color: var(--color-text)
+    color: var(--color-text);
 }
 
 h2{
@@ -42,7 +60,7 @@ h4{
 }
 
 .espaco{
-    margin: var(--size-1) var(--size-2);
+    margin: var(--margin);
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -61,7 +79,7 @@ h4{
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-around;
-    margin: var(--size-00) var(--size-3);
+    margin: var(--margin);
 }
 
 .menu a{
@@ -75,7 +93,7 @@ h4{
 .contato{
     display: flex;
     align-items: center;
-    margin: var(--size-00) var(--size-5);
+    margin: var(--margin);
 }
 
 span{
@@ -101,7 +119,15 @@ hr{
 }
 
 .perfil :hover{
-    animation: var(--animation-float);
+    animation: var(--animation-bounce);
+}
+
+h4:hover{
+    animation: var(--animation-float)
+}
+
+.item:hover{
+    animation: var(--animation-shake-y);
 }
 
 .svg-contato{
@@ -133,26 +159,8 @@ hr{
     border-radius: var(--radius-2);
 }
 
-.item:first-child{
+.lista >.item:first-child{
     border-bottom: none;
-}
-
-
-
-:root{
-    --color-background: var(--gray-0);
-    --color-text: var(--gray-10);
-    --color-primary:var(--blue-6);
-
-    --sombra:var(--gray-8);
-
-    /* titulo */
-    --titulo-color: var(--green-10);
-    --subtitulo-color: var(--gray-8);
-    /* svg de nuvem estrela */
-    --estrela: var(--yellow-4);
-    --nuvem: var(--blue-6);
-    --lua:var(--gray-7);
 }
 
 @media (prefers-color-scheme: dark){
