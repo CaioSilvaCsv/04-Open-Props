@@ -1,3 +1,7 @@
+:root{
+    
+}
+
 body{
 
 }
@@ -112,15 +116,10 @@ hr{
 
 }
 
-.item:first-child{
+.lista >.item:first-child{
     border-bottom: none;
 }
 
-
-
-:root{
-    
-}
 
 @media (prefers-color-scheme: dark){
     :root{
