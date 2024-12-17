@@ -27,7 +27,7 @@ Importando o OpenProps: <br>
 `@import "https://unpkg.com/open-props";` <br>
 
 Importando pacotes opcionais:<br>
-`@import "https://unpkg.com/open-props/normalize.min.css";<br>
+`@import "https://unpkg.com/open-props/normalize.min.css";`<br>
 `@import "https://unpkg.com/open-props/buttons.min.css";` <br>
 
 Importando temas:<br>
