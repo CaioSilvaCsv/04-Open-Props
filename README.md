@@ -21,7 +21,7 @@ Link do site: https://04-open-props.vercel.app/
 O site do OpenDrops disponibiliza suas instalações, utilizamos no css:
 
 Adicionar o OpenProps ao projeto:
-Utilize o recurso @import no arquivo CSS principal para incluir o OpenProps e seus pacotes adicionais.
+Utilize o recurso `@import` no arquivo CSS principal para incluir o OpenProps e seus pacotes adicionais.
 
 Importando o OpenProps: <br>
 `@import "https://unpkg.com/open-props";` <br>
